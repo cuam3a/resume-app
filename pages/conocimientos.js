@@ -14,7 +14,7 @@ export default function Skills() {
             EGRESADO DE LA UNIVERSIDAD DE SONORA, COMO INGENIERO EN SISTEMAS DE INFORMACIÓN.
           </p>
           <p className='font-bold max-w-screen-xl px-5 md:px-0 w-full flex-grow my-1'>
-            MAS DE 7 AÑOS DE EXPERIENCIA COMO DESARROLLADOR.
+            MÁS DE 7 AÑOS DE EXPERIENCIA COMO DESARROLLADOR.
           </p>
         </div>
         <div className='grid grid-flow-row col-span-1 justify-center mt-3 mx-auto py-5 md:px-16 pb-10'>
@@ -26,10 +26,10 @@ export default function Skills() {
       <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-5 mt-5">
         <div className="rounded overflow-hidden shadow-lg justify-center items-center">
           <Image
-            src="https://img.favpng.com/3/7/21/javascript-node-js-computer-icons-logo-application-software-png-favpng-ebFcx9xnNQyPYnT2RTy7PWBdV.jpg"
+            src="/images/conocimiento1.png"
             alt="Java Script"
-            height={120}
-            width={120}
+            height={200}
+            width={200}
             className="mx-auto"
           />
           <div className="px-6 py-4">
@@ -46,10 +46,10 @@ export default function Skills() {
 
         <div className="rounded overflow-hidden shadow-lg">
           <Image
-            src="https://freepikpsd.com/file/2019/10/net-png-1-1-Transparent-Images-Free.png"
+            src="/images/conocimiento2.png"
             alt="Microsoft .NET"
-            height={120}
-            width={120}
+            height={200}
+            width={200}
             className="mx-auto"
           />
           <div className="px-6 py-4">
@@ -66,10 +66,10 @@ export default function Skills() {
 
         <div className="rounded overflow-hidden shadow-lg">
           <Image
-            src="https://thumbs.dreamstime.com/b/icono-logo-design-ui-o-ux-app-de-la-base-de-datos-sql-96841969.jpg"
+            src="/images/conocimiento3.png"
             alt="Base de Datos"
-            height={120}
-            width={120}
+            height={200}
+            width={200}
             className="mx-auto"
           />
           <div className="px-6 py-4">
@@ -83,10 +83,10 @@ export default function Skills() {
 
         <div className="rounded overflow-hidden shadow-lg">
           <Image
-            src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/code-512.png"
+            src="/images/conocimiento4.png"
             alt="Otros"
-            height={120}
-            width={120}
+            height={200}
+            width={200}
             className="mx-auto"
           />
           <div className="px-6 py-4">

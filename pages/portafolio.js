@@ -13,7 +13,7 @@ export default function Portfolio() {
                     className="grid grid-flow-row col-span-2 mt-3 mx-auto py-5 md:px-16 pb-10"
                 >
                     <p className='font-bold max-w-screen-xl px-5 md:px-0 w-full flex-grow my-1'>
-                        DURANTE MIS 7 AÑOS COMO DESARROLLADOR, E TRABAJADO EN VARIOS PROJECTOS, LES MUESTRO LOS MAS IMPORTANTES...
+                        DURANTE MIS 7 AÑOS COMO DESARROLLADOR, HE TRABAJADO EN VARIOS PROYECTOS, LES MUESTRO LOS MÁS IMPORTANTES...
                     </p>
                 </div>
             </div>
@@ -21,7 +21,7 @@ export default function Portfolio() {
 
                 <div className="rounded overflow-hidden shadow-lg justify-center items-center">
                     <Image
-                        src="https://img2.freepng.es/20180825/qgk/kisspng-enterprise-resource-planning-software-testing-pene-erp-corewin-5b8169ead0f075.7095392615352079148558.jpg"
+                        src="/images/portafolio1.png"
                         alt="Java Script"
                         height={150}
                         width={150}
@@ -35,6 +35,7 @@ export default function Portfolio() {
                     </div>
                     <div>
                         <Link href="https://github.com/cuam3a/store-app" target="_blank" className='flex justify-center' ><span className="inline-block bg-blue-500 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 w-3/5 flex flex-row items-center justify-center"><BsGithub className='mr-2'/> Repositorio</span></Link>
+                        
                     </div>
                     <div className="px-6 pt-4 pb-2">
                         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Reactjs</span>
@@ -44,7 +45,7 @@ export default function Portfolio() {
 
                 <div className="rounded overflow-hidden shadow-lg justify-center items-center">
                     <Image
-                        src="https://img2.freepng.es/20180825/qgk/kisspng-enterprise-resource-planning-software-testing-pene-erp-corewin-5b8169ead0f075.7095392615352079148558.jpg"
+                        src="/images/portafolio2.png"
                         alt="Java Script"
                         height={150}
                         width={150}
@@ -67,7 +68,7 @@ export default function Portfolio() {
 
                 <div className="rounded overflow-hidden shadow-lg justify-center items-center">
                     <Image
-                        src="https://img2.freepng.es/20180825/qgk/kisspng-enterprise-resource-planning-software-testing-pene-erp-corewin-5b8169ead0f075.7095392615352079148558.jpg"
+                        src="/images/portafolio3.png"
                         alt="Java Script"
                         height={150}
                         width={150}
@@ -103,7 +104,7 @@ export default function Portfolio() {
                         </p>
                     </div>
                     <div>
-                        <Link href="https://github.com/cuam3a/store-app" target="_blank" className='flex justify-center' ><span className="inline-block bg-blue-500 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 w-3/5 flex flex-row items-center justify-center"><BsGithub className='mr-2'/> Repositorio</span></Link>
+                        <Link href="https://github.com/cuam3a/florea-app" target="_blank" className='flex justify-center' ><span className="inline-block bg-blue-500 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 w-3/5 flex flex-row items-center justify-center"><BsGithub className='mr-2'/> Repositorio</span></Link>
                     </div>
                     <div className="px-6 pt-4 pb-2">
                         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#React-native</span>
@@ -112,7 +113,7 @@ export default function Portfolio() {
 
                 <div className="rounded overflow-hidden shadow-lg justify-center items-center">
                     <Image
-                        src="https://img2.freepng.es/20180825/qgk/kisspng-enterprise-resource-planning-software-testing-pene-erp-corewin-5b8169ead0f075.7095392615352079148558.jpg"
+                        src="/images/portafolio5.png"
                         alt="Java Script"
                         height={150}
                         width={150}
@@ -126,7 +127,8 @@ export default function Portfolio() {
                         </p>
                     </div>
                     <div>
-                        <Link href="https://github.com/cuam3a/store-app" target="_blank" className='flex justify-center' ><span className="inline-block bg-blue-500 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 w-3/5 flex flex-row items-center justify-center"><BsGithub className='mr-2'/> Repositorio</span></Link>
+                        <Link href="https://github.com/cuam3a/mw-client" target="_blank" className='flex justify-center' ><span className="inline-block bg-blue-500 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 w-3/5 flex flex-row items-center justify-center"><BsGithub className='mr-2'/> Repositorio</span></Link>
+                        <Link href="https://miwhats.app/" target="_blank" className='flex justify-center' ><span className="inline-block bg-blue-500 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 w-3/5 flex flex-row items-center justify-center"><BsLink className='mr-2'/> Sitio WEB</span></Link>
                     </div>
                     <div className="px-6 pt-4 pb-2">
                         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#React.js</span>
@@ -138,7 +140,7 @@ export default function Portfolio() {
 
                 <div className="rounded overflow-hidden shadow-lg justify-center items-center">
                     <Image
-                        src="https://img2.freepng.es/20180825/qgk/kisspng-enterprise-resource-planning-software-testing-pene-erp-corewin-5b8169ead0f075.7095392615352079148558.jpg"
+                        src="/images/portafolio6.png"
                         alt="Java Script"
                         height={150}
                         width={150}
@@ -151,7 +153,7 @@ export default function Portfolio() {
                         </p>
                     </div>
                     <div>
-                        <Link href="https://github.com/cuam3a/store-app" target="_blank" className='flex justify-center' ><span className="inline-block bg-blue-500 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 w-3/5 flex flex-row items-center justify-center"><BsGithub className='mr-2'/> Repositorio</span></Link>
+                        <Link href="https://github.com/cuam3a/giabisso.online" target="_blank" className='flex justify-center' ><span className="inline-block bg-blue-500 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 w-3/5 flex flex-row items-center justify-center"><BsGithub className='mr-2'/> Repositorio</span></Link>
                         <Link href="https://giabisso.online/" target="_blank" className='flex justify-center' ><span className="inline-block bg-blue-500 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 w-3/5 flex flex-row items-center justify-center"><BsLink className='mr-2'/> Sitio WEB</span></Link>
                     </div>
                     <div className="px-6 pt-4 pb-2">
@@ -163,7 +165,7 @@ export default function Portfolio() {
 
                 <div className="rounded overflow-hidden shadow-lg justify-center items-center">
                     <Image
-                        src="https://img2.freepng.es/20180825/qgk/kisspng-enterprise-resource-planning-software-testing-pene-erp-corewin-5b8169ead0f075.7095392615352079148558.jpg"
+                        src="/images/portafolio7.png"
                         alt="Java Script"
                         height={150}
                         width={150}
@@ -172,7 +174,7 @@ export default function Portfolio() {
                     <div className="px-6 py-4">
                         <div className="text-sm font-bold mb-2">APP COBRANZA</div>
                         <p className='text-sm'>
-                            Aplicacion movil para Android, para cobranza de planes funerarios, busqueda de clientes, pagos, impresion tickets.
+                            Aplicacion movil para Android, para cobranza de planes funerarios, autentificación, busqueda de clientes, pagos, impresion tickets.
                         </p>
                     </div>
                     <div className="px-6 pt-4 pb-2">
@@ -182,7 +184,7 @@ export default function Portfolio() {
 
                 <div className="rounded overflow-hidden shadow-lg justify-center items-center">
                     <Image
-                        src="https://img2.freepng.es/20180825/qgk/kisspng-enterprise-resource-planning-software-testing-pene-erp-corewin-5b8169ead0f075.7095392615352079148558.jpg"
+                        src="/images/portafolio8.png"
                         alt="Java Script"
                         height={150}
                         width={150}
@@ -191,7 +193,7 @@ export default function Portfolio() {
                     <div className="px-6 py-4">
                         <div className="text-sm font-bold mb-2">APP WEB ORO PURO</div>
                         <p className='text-sm'>
-                            Aplicacion web para Oro Puro, plataforma para vezualizar reportes de SAPB1, CRUD clientes SAPB1, configuracion de rutas.
+                            Aplicacion web para Oro Puro, autentificación, plataforma para vezualizar reportes de SAPB1, CRUD clientes SAPB1, configuracion de rutas SAPB1.
                         </p>
                     </div>
                     <div className="px-6 pt-4 pb-2">
@@ -206,7 +208,7 @@ export default function Portfolio() {
 
                 <div className="rounded overflow-hidden shadow-lg justify-center items-center">
                     <Image
-                        src="https://img2.freepng.es/20180825/qgk/kisspng-enterprise-resource-planning-software-testing-pene-erp-corewin-5b8169ead0f075.7095392615352079148558.jpg"
+                        src="/images/portafolio9.png"
                         alt="Java Script"
                         height={150}
                         width={150}
