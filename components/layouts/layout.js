@@ -6,9 +6,8 @@ import Script from 'next/script';
 export default function Layout({ children }) {
     return (
         <>
-            <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-G6YFEEGX0S`} />
-
-            <Script strategy="lazyOnload">
+            <Script id="analytic" strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-G6YFEEGX0S`} />
+            <Script id="fncanalytic" strategy="lazyOnload">
                 {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
