@@ -1,25 +1,29 @@
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 export default function Skills() {
+  const router = useRouter()
+  const LANG = router.query?.lang?.toUpperCase() ?? "ESP"
+
   return (
     <div className='w-full font-mono flex-col md:flex-row'>
       <h2 className="border-blue-500 border-t-4 text-xl w-10 mt-3 mx-5 md:mx-20">
-        CONOCIMIENTOS
+        {(LANG == "ENG" ? "SKILLS" : "CONOCIMIENTOS")}
       </h2>
       <div className='grid grid-cols-1 md:grid-cols-3 bg-gray-200 w-full mt-3'>
         <div
           className="grid grid-flow-row col-span-2 justify-center mt-3 mx-auto py-5 md:px-16 pb-10"
         >
           <p className='font-bold max-w-screen-xl px-5 md:px-0 w-full flex-grow my-1'>
-            EGRESADO DE LA UNIVERSIDAD DE SONORA, COMO INGENIERO EN SISTEMAS DE INFORMACIÓN.
+            {(LANG == "ENG" ? "GRADUATED FROM THE UNIVERSITY OF SONORA, AS AN INFORMATION SYSTEMS ENGINEER." : "EGRESADO DE LA UNIVERSIDAD DE SONORA, COMO INGENIERO EN SISTEMAS DE INFORMACIÓN.")}
           </p>
           <p className='font-bold max-w-screen-xl px-5 md:px-0 w-full flex-grow my-1'>
-            MÁS DE 7 AÑOS DE EXPERIENCIA COMO DESARROLLADOR.
+            {(LANG == "ENG" ? "MORE THAN 7 YEARS OF EXPERIENCE AS A FULLS-STACK DEVELOPER." : "MÁS DE 7 AÑOS DE EXPERIENCIA COMO DESARROLLADOR.")}
           </p>
         </div>
         <div className='grid grid-flow-row col-span-1 justify-center mt-3 mx-auto py-5 md:px-16 pb-10'>
           <p className='font-bold max-w-screen-xl px-5 md:px-0 w-full flex-grow my-1 border-blue-500 border-b-4'>
-            NIVEL INGLES B1-B2
+            {(LANG == "ENG" ? "ENGLISH LEVEL B1-B2" : "NIVEL INGLES B1-B2")}
           </p>
         </div>
       </div>
@@ -90,7 +94,7 @@ export default function Skills() {
             className="mx-auto"
           />
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">Otros</div>
+            <div className="font-bold text-xl mb-2">{(LANG == "ENG" ? "Other" : "Otros")}</div>
           </div>
           <div className="px-6 pt-4 pb-2">
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#PHP</span>
