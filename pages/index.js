@@ -7,7 +7,7 @@ export default function Home() {
   const LANG = router.query?.lang?.toUpperCase() ?? "ESP"
 
   return (
-    <div className='w-full bg-gray-200 md:max-h-screen font-mono flex-col md:flex-row'>
+    <div className='w-full  md:max-h-screen font-mono flex-col md:flex-row'>
       <section
         className="flex flex-col md:flex-row justify-center items-center mt-3 mx-auto py-5 md:px-16 w-full lg:max-w-screen-2xl sm:max-w-screen-sm md:max-w-screen-md pb-20">
         <div className="px-3 w-full lg:w-3/5 flex flex-col items-center">
@@ -43,7 +43,7 @@ export default function Home() {
         <div className="px-3 mb-12 w-full lg:mb-0 lg:w-2/5 flex">
           <div className="flex justify-center items-center">
             <Image
-              src="https://www.logicrays.com/images/hire-nodejs-developer.png"
+              src="/images/index.png"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='flex justify-center items-center pb-5 flex-wrap text-lg flex-col md:flex-row'>
+      <section className='bg-gray-200 flex justify-center items-center py-5 flex-wrap text-lg flex-col md:flex-row'>
         <p className='font-bold max-w-screen-xl w-full text-center flex-grow my-1'>
           {(LANG == "ENG" ? "HELLO, WELCOME TO MI WEB SITE !!!" : "HOLA, BIENVENIDO A MI SITIO WEB !!!")}
         </p>
