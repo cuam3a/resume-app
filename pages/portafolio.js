@@ -39,11 +39,35 @@ export default function Portfolio() {
                     </div>
                     <div>
                         <Link href="https://github.com/cuam3a/store-app" target="_blank" className='flex justify-center' ><span className="inline-block bg-blue-500 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 w-3/5 flex flex-row items-center justify-center"><BsGithub className='mr-2' /> {(LANG == "ENG" ? "Repository" : "Repositorio")}</span></Link>
-
                     </div>
                     <div className="px-6 pt-4 pb-2">
                         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Reactjs</span>
                         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Node.js</span>
+                    </div>
+                </div>
+
+                <div className="rounded overflow-hidden shadow-lg justify-center items-center">
+                    <Image
+                        src="/images/portafolio10.png"
+                        alt="Java Script"
+                        height={150}
+                        width={150}
+                        className="mx-auto mt-6"
+                    />
+                    <div className="px-6 py-4 mt-8">
+                        <div className="text-sm font-bold mb-2">{(LANG == "ENG" ? "APP FOR DEALERSHIP" : "APP CONCESIONARIA TRANSPORTES")}</div>
+                        <p className='text-sm'>
+                            {(
+                                LANG == "ENG"
+                                    ? "App Mobil and backend, bus concessionaire systems, where the unit, driver, concessionaire, route is captured, and control of route verifications is taken."
+                                    : "Aplicacion movil y backend, sistems de concesinaria de autobuses, donde se caputra, unidad, chofer, concesionaria, ruta, y se lleva el control de verificaciones de rutas."
+                            )}
+                        </p>
+                    </div>
+                    <div className="px-6 pt-4 pb-2">
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Flutter</span>
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Node.js</span>
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#MongoDB</span>
                     </div>
                 </div>
 
