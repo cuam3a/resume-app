@@ -25,6 +25,60 @@ export default function Portfolio() {
 
                 <div className="rounded overflow-hidden shadow-lg justify-center items-center">
                     <Image
+                        src="/images/mexicof3.png"
+                        alt="Java Script"
+                        height={40}
+                        width={40}
+                        className="mx-auto mt-6"
+                    />
+                    <div className="px-6 py-4 mt-8">
+                        <div className="text-sm font-bold mb-2">{(LANG == "ENG" ? "APP MEXICOF3" : "APP MEXICOF3")}</div>
+                        <p className='text-sm'>
+                            {(
+                                LANG == "ENG"
+                                    ? "App WEB and backend, Mexico Functional Fitness registration system for athletes, judges and coaches, competition registration, online payments, competition qualification."
+                                    : "Aplicacion WEB y backend, Empresa Mexico Functional Fitness, sistema de registro de atletas, jueces y entrenadores, registro de competencias, pagos online, calificacion de competencias."
+                            )}
+                        </p>
+                    </div>
+                    <div>
+                    <Link href="https://perfil.mexicof3.com/" target="_blank" className='flex justify-center' ><span className="inline-block bg-blue-500 text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 w-3/5 flex flex-row items-center justify-center"><BsLink className='mr-2' /> {(LANG == "ENG" ? "WEB Site" : "Sitio WEB")}</span></Link>
+                    </div>
+                    <div className="px-6 pt-4 pb-2">
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Astro</span>
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#React.js</span>
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Node.js</span>
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#MongoDB</span>
+                    </div>
+                </div>
+
+                <div className="rounded overflow-hidden shadow-lg justify-center items-center">
+                    <Image
+                        src="/images/portafolio11.png"
+                        alt="Java Script"
+                        height={130}
+                        width={130}
+                        className="mx-auto mt-6"
+                    />
+                    <div className="px-6 py-4 mt-8">
+                        <div className="text-sm font-bold mb-2">{(LANG == "ENG" ? "BANSI" : "BANSI")}</div>
+                        <p className='text-sm'>
+                            {(
+                                LANG == "ENG"
+                                    ? "Frontend and backend, work on internal user and application control system."
+                                    : "Frontend y backend, trabajo en sistema interno de control de usuairos y aplicaciones."
+                            )}
+                        </p>
+                    </div>
+                    <div className="px-6 pt-4 pb-2">
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Angular</span>
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#C#</span>
+                        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#SQLServer</span>
+                    </div>
+                </div>
+
+                <div className="rounded overflow-hidden shadow-lg justify-center items-center">
+                    <Image
                         src="/images/portafolio1.png"
                         alt="Java Script"
                         height={150}
